@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Telangana Scheme Recommender</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+<h2>Telangana Scheme Recommender</h2>
+
+<label>Age</label>
+<input id="age" type="number">
+
+<label>Monthly Income</label>
+<input id="income" type="number">
+
+<label>Is Farmer?</label>
+<select id="farmer">
+  <option>No</option>
+  <option>Yes</option>
+</select>
+
+<label>Is Woman?</label>
+<select id="woman">
+  <option>No</option>
+  <option>Yes</option>
+</select>
+
+<label>Is Student?</label>
+<select id="student">
+  <option>No</option>
+  <option>Yes</option>
+</select>
+
+<label>Caste Category</label>
+<select id="caste">
+  <option>BC</option>
+  <option>SC</option>
+  <option>OC</option>
+</select>
+
+<label>District</label>
+<select id="district">
+  <option>Hyderabad</option>
+  <option>Karimnagar</option>
+  <option>Nizamabad</option>
+  <option>Medak</option>
+  <option>Warangal</option>
+</select>
+
+<br><br>
+
+<button onclick="getRecommendation()">Get Recommendation</button>
+
+<h3 id="result">Recommendation: </h3>
+
+<script src="script.js"></script>
+</body>
+</html>
